@@ -22,34 +22,32 @@ I build and ship production software end to end, including real-time voice AI an
 
 <h2 id="about-me">🧑‍💼 About me</h2>
 
-I'm a fullstack developer who builds and ships software end to end, frontend, backend, and AWS infrastructure. At **LeadCaller** I work across a live product where I've built a real-time voice agent and a chat assistant backed by a RAG pipeline, integrated Stripe payments, and built an automation engine for email and SMS on a serverless AWS backend.
+I'm a fullstack developer who builds and ships software end to end, from the frontend to the backend. In my most recent role, most of my work has been on the AI side, voice agents and chat assistants backed by RAG pipelines. I work in both TypeScript and Python, and I like learning new tools.
 
-Before tech I spent years in hospitality, including running my own bar. That taught me to stay calm under pressure, solve problems on the fly, and work well with people. I bring the same instincts to development.
-
-I work day to day in TypeScript, React/Remix, and Node, with AI tools as a natural part of the workflow. I like learning new technologies and working closely with a team that wants to solve the challenges together.
+Before I worked in tech, I spent years in hospitality. I came up through restaurants and bars, was given more responsibility and grew into the role until I was running a large part of a chain and training staff in customer service, stress management, and communication. I also started my own bar. It's where I learned most of what I know about people. I'm sociable, full of energy for the people I work with, and never far from a laugh. I know how much people gain from open communication and being able to have fun together.
 
 ---
 <h2 id="experience">⭐ Experience</h2>
 
 ### Fullstack Developer, LeadCaller (Communication One i Göteborg AB) · 2026
 
-- Shipped features across a live SaaS product, from frontend to serverless AWS backend.
-- Built a real-time voice agent and a chat assistant backed by a RAG pipeline, so answers stayed grounded in the customer's own data.
-- Built live dashboards in React and Remix, connected straight to our database, showing sales, forecasts and performance in real time for the sales team and customers.
-- Integrated Stripe payments and built an automation engine for email and SMS on a serverless AWS backend, working with both NoSQL and SQL databases.
-- Onboarded customers, owned QA, and handled production issues as they came up.
-- Worked day to day in TypeScript, React/Remix and Node, with AI tools as a natural part of the workflow.
+- Delivered customer-facing features end to end on a live SaaS product, from the React/Remix UI down to serverless AWS (Lambda, DynamoDB, API Gateway), used daily by the sales team and customers.
+- Built a voice agent integrated with Twilio, using Deepgram for speech-to-text, OpenAI for reasoning, and ElevenLabs for natural speech.
+- Paired that with a RAG chat assistant that answers from each customer's own data, using embeddings and vector search (Qdrant, Pinecone) to keep answers grounded rather than guessed at.
+- Shipped dashboards with live statistics that became the team's analysis and sales tool, built in React/Remix and updated live over WebSockets.
+- Integrated Stripe payments (checkout and webhooks) and built an engine that sends customer email and SMS automatically, running serverless on AWS across PostgreSQL and DynamoDB.
+- Onboarded new customers, owned QA, and debugged production issues on a live system.
 
 <sub>Stack: TypeScript · Remix / React · Node · AWS serverless (SST / CDK) · DynamoDB · PostgreSQL · Redis · Qdrant / Pinecone.</sub>
 
 ### Internship, AI Sweden · 2025
 
-- Built a tool that connected to both Neo4j and SQL, used Gemini to summarize detailed project reports, and wrote the generated summaries back into the databases. Gave a faster overview of where each project stood.
-- Built the GUI for it from scratch, where you could view, edit and update the project reports.
+- Created an internal tool that pulled project reports from Neo4j and SQL, summarized them with Gemini, and wrote the summaries back, so the team could see where each project stood at a glance instead of reading full reports.
+- Designed and built the interface: view, edit and manage all project reports in one place.
 
 ### Internship, AIgineer · 2024
 
-- Built teaching animations with Manim, working with Bézier curves and design, in my first real dev team using Git and agile workflow.
+- Built teaching animations in Manim (Bézier curves, motion design) in my first professional dev team, working with Git and an agile workflow.
 
 <sub>[↑ Back to top](#back-to-top)</sub>
 
